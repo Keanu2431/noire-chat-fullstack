@@ -9,6 +9,7 @@ router.post("/", async (req, res) => {
     const user = await User.create({ name, email, password, picture });
     res.status(201).json(user);
   } catch (e) {
+    console.log("post error");
     let msg;
     if (e.code == 11000) {
       msg = "User already exists";
