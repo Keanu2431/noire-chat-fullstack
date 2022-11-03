@@ -52,7 +52,7 @@ function Sidebar() {
   });
 
   function getRooms() {
-    fetch("http://127.0.0.1:3001/rooms")
+    fetch("https://noire-chat.herokuapp.com/rooms")
       .then((res) => res.json())
       .then((data) => setRooms(data));
   }

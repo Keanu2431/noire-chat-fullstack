@@ -17,7 +17,7 @@ const server = require("http").createServer(app);
 const PORT = process.env.PORT || 3001;
 const io = require("socket.io")(server, {
   cors: {
-    origin: "http://127.0.0.1:3000",
+    origin: "https://noire-chat.netlify.app",
     methods: ["GET", "POST"],
   },
 });
