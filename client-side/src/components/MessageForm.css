@@ -1,0 +1,84 @@
+.messages-output {
+  height: 75vh;
+  border: 2px solid lightgray;
+  overflow-y: scroll;
+  margin-bottom: 20px;
+  border-radius: 24px;
+  background-color: #e3e3ff;
+  overflow: overlay;
+}
+input {
+  background-color: #e3e3ff !important;
+}
+.col-md-11 input {
+  height: 5vw !important;
+}
+.message-inner {
+  margin-left: 20px;
+  margin-bottom: 10px;
+  padding: 10px;
+  min-width: 200px;
+  max-width: 90%;
+  text-align: left;
+  min-height: 80px;
+  font: 400 1em, sans-serif;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #f4f2ff;
+}
+
+.incoming-message .message-inner {
+  background-color: #6757fd;
+  color: white;
+}
+
+.incoming-message {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.message-timestamp-left {
+  font-size: 0.85em;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.message-sender {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.message-date-indicator {
+  width: 150px;
+  margin: 0 auto;
+  background-color: #e3e3ff !important;
+  color: black !important;
+}
+
+.conversation-info {
+  padding: 0;
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+}
+
+.conversation-profile-pic {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  margin: 10px auto;
+  margin-bottom: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.header {
+  background-color: #6757fd !important;
+  font-size: 2rem;
+  border-radius: 12px !important;
+  color: white !important;
+}
+
+.send-btn-container {
+  width: 500px;
+}

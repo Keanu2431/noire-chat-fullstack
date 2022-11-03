@@ -1,0 +1,15 @@
+.login__bg {
+  background-image: url(https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/adut-akech-walks-the-runway-at-the-miu-miu-show-ready-to-news-photo-1594219913.jpg);
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  box-shadow: -25px 25px 30px #8585f8;
+  height: 80vh;
+  border-radius: 12px;
+}
+.button {
+  background-color: #6757fd !important;
+  font-size: 1rem !important;
+}

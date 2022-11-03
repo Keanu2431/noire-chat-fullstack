@@ -1,0 +1,8 @@
+.span {
+  font-size: 1.5rem;
+  text-transform: capitalize;
+}
+.navbar {
+  background-color: #e3e3ff;
+  margin-bottom: 3vw;
+}

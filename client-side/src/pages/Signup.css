@@ -1,0 +1,38 @@
+.signup__bg {
+  background-image: url(https://www.essence.com/wp-content/uploads/2016/06/1466014647/GettyImages-488141750.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  box-shadow: -25px 25px 30px #8585f8;
+  height: 80vh;
+  border-radius: 12px;
+}
+
+.signup-profile-pic__container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.signup-profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 5px solid #6757fd;
+  object-fit: cover;
+  height: 100px;
+}
+
+.add-picture-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: #6757fd;
+  background: white;
+  cursor: pointer;
+  z-index: 99;
+}
+.button {
+  background-color: #6757fd !important;
+}

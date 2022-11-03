@@ -1,0 +1,23 @@
+.home__bg {
+  background-image: url(https://static01.nyt.com/images/2021/06/03/fashion/02BLACKVINTAGESTORES-7/merlin_188588712_d21c077b-88f0-47f7-8da1-b8bd81d57738-mobileMasterAt3x.jpg);
+  width: 90vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow-x: hidden;
+  box-shadow: -25px 25px 30px #8585f8;
+  height: 80vh;
+  border-radius: 12px;
+}
+
+.home-message-icon {
+  margin-left: 10px;
+  display: inline-block;
+}
+p {
+  font-weight: 700;
+}
+.button {
+  background-color: #6757fd !important;
+  font-size: 1.5rem !important;
+}
